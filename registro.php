@@ -50,7 +50,7 @@
                     <td>
                     <select title="Seleccione su genero" name="genero" class="form-control" id="electiva">
                     <?php while ($result = mysqli_fetch_object($query)): ?>
-                        <option value="<?php echo $result->id; ?>"><?php echo $result->Descripcion; ?></option>
+                        <option value="<?php echo $result->id; ?>"><?php echo $result->sexo; ?></option>
                     <?php endwhile; ?>              
                     </select>
                     </td>
@@ -62,7 +62,7 @@
                 <td>
                     <select id ="slphp" title="Seleccione uno de los deportes" name="form-control" class="form-control">
                     <?php while ($result1 = mysqli_fetch_object($query1)): ?>
-                        <option value=" <?php echo $result1->id; ?>"><?php echo $result1->descripcion ?></option>
+                        <option value=" <?php echo $result1->id; ?>"><?php echo $result1->deporte ?></option>
                     <?php endwhile; ?>
                     </select>
                 </td>						

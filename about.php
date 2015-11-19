@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="bootstrap/css/estilos.css">
 
 </head>
-<body class="fondo">
+<body >
 	<?php include ("barraNavegacion.php"); ?>
   <center><div class="col-lg-4">
           <img class="img-circle" src="img/mateo.jpg" alt=""  alt="Imagen genérica "width="150px"></span>

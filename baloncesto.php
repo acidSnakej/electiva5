@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="bootstrap/css/estilos.css">
 
 </head>
-<body   >
+<body >
     <?php include ("barraNavegacion.php"); ?>
     <?php include ("carrusel/carruselbalon.php"); ?>
     <?php include ("footer.php"); ?>

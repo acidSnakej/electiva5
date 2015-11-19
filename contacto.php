@@ -13,7 +13,7 @@
     <?php require ("recaptcha/recaptchalib.php"); ?>
     <?php include("barraNavegacion.php"); ?>
     <?php require ("DBManager.php"); ?>
-  <center class="TituloRegistro"><h1>Registro de datos</h1></center>
+  <center class="TituloRegistro"><h1>Conctactenos</h1></center>
 
 <section>
 <form action="envioEmail.php" method="post">
@@ -24,28 +24,28 @@
                 <tr>
                     <td><label for="txtnombre">Nombre </label></td>
                     <td>
-                    <input type="text" name="txtnombre" id="txtnombre" class="form-control" required>
+                    <input type="text" title="Ingrese el nombre" name="txtnombre" id="txtnombre" class="form-control" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td><label for="txtapellido">Apellidos </label> </td>
                     <td>
-                    <input type="text" name="txtapellido" id="txtapellido" class="form-control" required>
+                    <input type="text" title="Ingrese el apellido" name="txtapellido" id="txtapellido" class="form-control" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td><label for="txtemail">Email </label> </td>
                     <td>
-                    <input type="email" name="txtemail" id="txtemail" class="form-control" required>
+                    <input type="email" title="Ingrese el correo" name="txtemail" id="txtemail" class="form-control" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td><label for="text">Mensaje</label></td>
                     <td>
-                        <input type="text" name="texto" id="texto" class="form-control" required>
+                        <input type="text" title="Ingrese un mensaje" name="texto" id="texto" class="form-control" required>
                     </td>
                 </tr>
 <br>
@@ -53,14 +53,13 @@
     <div class="g-recaptcha" data-sitekey="6Leuqg0TAAAAAGTtqZKwM5i19Co_y1aSdR0oWHtm" style="position:relative;"></div>
 </div>
 
-        <br>
+            </tbody>
+            </table></center>
+             <br>
         <center><td><input type="submit" value="Enviar" class="btn btn-primary" name="enviar" /></td>
         <td><input type="reset" value="Resetear" class="btn btn-primary" /></td>
             <p><?php echo $error = $_GET['error']; ?></p></center>
 
-
-            </tbody>
-            </table></center>
         </form>
 </section>
 

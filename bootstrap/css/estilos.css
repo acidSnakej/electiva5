@@ -56,9 +56,9 @@
 	font-style: oblique;
 }
 
-.fondo{
+body{
   background-image: url("http://fondosli.com/wallpaper-original/wallpapers/colorido-10981.jpg");
-  background-position: left;
+  background-size: cover;
 }
 
 .form-control{

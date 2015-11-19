@@ -12,7 +12,7 @@ class DB_mysqli{
 		{
 			$this->server = "localhost";
 			$this->user = "root";
-			$this->pass = "Desarrollo1";
+			$this->pass = "";
 			$this->db = "electiva";
 
 			$this->connect();
