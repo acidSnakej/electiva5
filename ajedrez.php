@@ -2,17 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PaginaDeportes</title>
+    <title>MipaginaWeb</title>
             <?php include ("header.php"); ?>
   <link rel="stylesheet" href="bootstrap/css/estilos.css">
 
 </head>
-<body background=http://fondosli.com/wallpaper-original/wallpapers/colorido-10981.jpg>
+<body >
     <?php include ("barraNavegacion.php"); ?>
     <?php include ("carrusel/carruselAjedrez.php"); ?>
     <?php include ("footer.php"); ?>
     <br>
 
+    <h3>Historia del ajedrez</h3>
+
+    <h4>El origen del ajedrez sigue siendo una cuestión de debate entre los historiadores del ajedrecismo,
+     pero sin embargo la teoría más difundida es que fue creado en la India durante el Imperio Gupta alrededor del siglo VI.
+     Esta teoría se confirma por los primeros registros literarios persas y por el análisis de la etimología de las palabras utilizadas
+     en el juego y su co-evolución con el ajedrez.</h4>
 
    <p><h4>El ajedrez es un deporte que se juega entre dos personas, sobre un tablero, cada una de
     las cuales dispone de 16 piezas móviles que se colocan sobre un tablero dividido en 64 escaques (casillas).
@@ -31,6 +37,19 @@
     del jaque. Si no hay defensa posible contra un jaque, el rey está en jaque mate. Ese es el objetivo y quien lo
     inflige al rey rival, gana.</h4>
 
-</h4> 
+    <h3>Etapas del juego</h3>
+
+    <h4>Este juego tiene habitualmente tres etapas:</h4> 
+    <h4>* La apertura que comprende las primeras jugadas, donde las piezas van saliendo de sus casillas iniciales.</h4>
+    <h4>* El medio juego, cuando los dos bandos aún tienen muchas piezas y peones, y éstos entran en un intenso comflicto.</h4>
+    <h4>* El final, donde quedan pocas piezas y peones.</h4>
+
+    <br>
+    <h5>FUENTES:</h5>
+    <ul class="navbar">
+     <li><a href="https://es.wikipedia.org/wiki/Historia_del_ajedrez">Historia del ajedrez</a></li>
+     <li><a href="https://es.wikipedia.org/wiki/Ajedrez">Etapas de juego</a></li>
+
+    </ul>
 </body>
 </html>

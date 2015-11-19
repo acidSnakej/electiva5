@@ -26,7 +26,7 @@
 
     <div class="item">
     <a onclick="showDetails(this)" class="thumbnail" data-target="#image-gallery" data-caption="Discipulo de taekwondo" data-tittle="Artista Marcial" data-toggle="modal" data-image-id="3" href="#">
-            <img class= "img-responsive"  src="img/Taekwondo.jpg" alt="Discipulo de taekwondo" longdesc="http://localhost/PaginaDeportes/taekwondo.php#img/Taekwondo.jpg" height="400px" width="100%" >
+            <img class= "img-responsive"  src="img/tae.jpg" alt="Discipulo de taekwondo" longdesc="http://localhost/PaginaDeportes/taekwondo.php#img/Taekwondo.jpg" height="400px" width="100%" >
     </a>
         <div class="carousel-caption">
         </div>
