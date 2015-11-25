@@ -25,7 +25,7 @@
   <div class="col-lg-4">
           <img class="img-circle" src="img/jorge.JPG" alt="" width="175px" height="150 px" ></span>
           <h2>Jorge Rivera</h2>
-          <p>Programador web: Encargado de la programacion; que  todo funcione a la perfección </p>
+          <p>Programador web: Encargado de la programacion. </p>
        
  
   </div></center>

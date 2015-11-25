@@ -47,7 +47,6 @@
 
 }
 
-
 .Desarrolladores{						/** Cambia el tipo de letra de los elaboradores de la página*/
 	font-style: oblique
 }
@@ -63,7 +62,7 @@ body{
 
 .form-control{
 	font-style: oblique;
-	
+
 }
 .FeedBack{								/*Cambia la apareciencia de la sección de noticias, proyectos, redes sociales	*/
 	font-style: oblique;
@@ -113,6 +112,27 @@ body{
 	color: #818181;
 	font-style: oblique;
 }
+.nota-informativa {
+padding:5px; /*Espaciado interno*/
+width:180px; /*Ancho del contenedor*/
+text-align:center; /*Alineación del texto*/
+background-color:black; /*Color de fondo*/
+position:fixed; /*Permite que se mantenga estático*/
+display:none; /*Oculta el contenedor*/
+left:200px; /*Separación del borde izquierdo*/
+bottom:80px; /*Separación inferior del borde*/
+box-shadow:0 0 5px #555; /*Sombras CSS3*/
+}
+#notaNombre{
+	background-color:black; 
+        display: none; 
+        margin: 3px; 
+        width: 3px; 
+        float: left; 
+        text-align: center;
+}
+
+
 
 .NombreProyecto{						/* Cambia el color del nombre proyecto*/
 
