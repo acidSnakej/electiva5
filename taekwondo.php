@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>MipaginaWeb</title>
             <?php include ("header.php"); ?>
-  <link rel="stylesheet" href="bootstrap/css/estilos.css">
-
 </head>
 <body>
     <?php include ("barraNavegacion.php"); ?>

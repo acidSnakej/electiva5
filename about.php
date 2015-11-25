@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<title>XeedOrder</title>
       <?php include ("header.php"); ?>
-  <link rel="stylesheet" href="bootstrap/css/estilos.css">
-
 </head>
 <body >
+      <?php include ("buscador.php"); ?>
 	<?php include ("barraNavegacion.php"); ?>
+
   <center><div class="col-lg-4">
           <img class="img-circle" src="img/mateo.jpg" alt=""  alt="Imagen genérica "width="150px"></span>
           <h2>Mateo Bohorquez</h2>
