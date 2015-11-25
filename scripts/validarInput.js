@@ -14,10 +14,10 @@ $(document).ready(function(){
 		var apellido = $("#txtapellido").val();
 		if (apellido == "")
 		{
-			
-			}else{
-
-			}
+			$("#notaApellido").fadeIn(0);
+		}else{
+			$("#notaApellido").fadeOut(100);
+		}
 
 	});// funcion validar apellido
 
@@ -25,11 +25,9 @@ $(document).ready(function(){
 		var correo = $("#txtemail").val();
 		if (correo == "")
 		{
-			
-		}
-		else
-		{
-
+			$("#notaCorreo").fadeIn(0);
+		}else{
+			$("#notaCorreo").fadeOut(100);
 		}
 
 	});// funcion validar correo
@@ -38,11 +36,9 @@ $(document).ready(function(){
 		var text = $("#texto").val();
 		if (text == "")
 		{
-
-		}
-		else
-		{
-
+			$("#notaMensaje").fadeIn(0);
+		}else{
+			$("#notaMensaje").fadeOut(100);
 		}
 
 	});// funcion validar texto

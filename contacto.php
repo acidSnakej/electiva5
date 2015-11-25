@@ -41,14 +41,20 @@
                 <tr>
                     <td><label for="txtemail">Email </label> </td>
                     <td>
-                    <input type="email" title="Ingrese el correo" name="txtemail" id="txtemail" class="form-control" placeholder="Escriba su correo electrónico" required>
+                    <input type="email" title="Ingrese el correo" name="txtemail" id="txtemail" class="form-control" 
+                    placeholder="Escriba su correo " required>
+                    <div class="nota-informativa" id="notaCorreo">Debe ingresar un correo</div>
+
                     </td>
                 </tr>
 
                 <tr>
                     <td><label for="text">Mensaje</label></td>
                     <td>
-                        <input type="text" title="Ingrese un mensaje" name="texto" id="texto" class="form-control" placeholder="Escriba el mensaje" required>
+                        <input type="text" title="Ingrese un mensaje" name="texto" id="texto" class="form-control" 
+                        placeholder="Escriba el mensaje" required>
+                        <div class="nota-informativa" id="notaMensaje">Debe ingresar un Mensaje</div>
+
                     </td>
                 </tr>
 <br>
