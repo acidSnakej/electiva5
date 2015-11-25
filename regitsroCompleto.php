@@ -2,7 +2,6 @@
 <html>
 <head>
 	<title>MiPaginaWeb</title>
-	 <link rel="stylesheet" href="bootstrap/css/estilos.css">
 </head>
 <body background=http://fondosli.com/wallpaper-original/wallpapers/colorido-10981.jpg>
   <?php include ("header.php"); ?>

@@ -123,17 +123,6 @@ left:200px; /*Separación del borde izquierdo*/
 bottom:80px; /*Separación inferior del borde*/
 box-shadow:0 0 5px #555; /*Sombras CSS3*/
 }
-#notaNombre{
-	background-color:black; 
-        display: none; 
-        margin: 3px; 
-        width: 3px; 
-        float: left; 
-        text-align: center;
-}
-
-
-
 .NombreProyecto{						/* Cambia el color del nombre proyecto*/
 
 	color: #F5F5F9;

@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<title>MipaginaWeb</title>
             <?php include ("header.php"); ?>
-	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-
   <link rel="stylesheet" href="bootstrap/css/estilos.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
