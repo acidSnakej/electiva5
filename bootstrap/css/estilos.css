@@ -88,7 +88,7 @@ body{
 
 
 .TituloRegistro{						/*Cambia el color y estilo del titulo registro*/
-	font-style: oblique;
+	font: 200% sans-serif; 
 	color: #ECF0F3
 }
 .navbar-brand{
@@ -122,7 +122,7 @@ body{
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
     left:1130px; /*Separación del borde izquierdo*/
-    bottom:582px; /*Separación inferior del borde*/
+    bottom:510px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 #notaApellido{
@@ -135,7 +135,7 @@ body{
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
     left:1130px; /*Separación del borde izquierdo*/
-    bottom:549px; /*Separación inferior del borde*/
+    bottom:475px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 
 }
@@ -149,7 +149,7 @@ body{
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
     left:1130px; /*Separación del borde izquierdo*/
-    bottom:519px; /*Separación inferior del borde*/
+    bottom:440px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 #notaMensaje{
@@ -162,23 +162,52 @@ body{
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
     left:1130px; /*Separación del borde izquierdo*/
-    bottom:493px; /*Separación inferior del borde*/
+    bottom:403px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 
-
-
-.nota-informativa {
-padding:5px; /*Espaciado interno*/
-width:180px; /*Ancho del contenedor*/
-text-align:center; /*Alineación del texto*/
-background-color:black; /*Color de fondo*/
-position:fixed; /*Permite que se mantenga estático*/
-display:none; /*Oculta el contenedor*/
-left:200px; /*Separación del borde izquierdo*/
-bottom:80px; /*Separación inferior del borde*/
-box-shadow:0 0 5px #555; /*Sombras CSS3*/
+#valNombre{
+    padding:5px; /*Espaciado interno*/
+    width:180px; /*Ancho del contenedor*/
+    text-align:center; /*Alineación del texto*/
+    font: oblique bold 110% cursive; 
+    color: #050505; /*color de la letra*/
+    opacity: 0.8; /* cuadro de transparencia*/
+    position:fixed; /*Permite que se mantenga estático*/
+    display:none; /*Oculta el contenedor*/
+    left:1130px; /*Separación del borde izquierdo*/
+    bottom:403px; /*Separación inferior del borde*/
+    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
+
+#valApellido{
+    padding:5px; /*Espaciado interno*/
+    width:180px; /*Ancho del contenedor*/
+    text-align:center; /*Alineación del texto*/
+    font: oblique bold 110% cursive; 
+    color: #050505; /*color de la letra*/
+    opacity: 0.8; /* cuadro de transparencia*/
+    position:fixed; /*Permite que se mantenga estático*/
+    display:none; /*Oculta el contenedor*/
+    left:1130px; /*Separación del borde izquierdo*/
+    bottom:475px; /*Separación inferior del borde*/
+    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
+}
+
+#valCorreo{
+    padding:5px; /*Espaciado interno*/
+    width:180px; /*Ancho del contenedor*/
+    text-align:center; /*Alineación del texto*/
+    font: oblique bold 110% cursive; 
+    color: #050505; /*color de la letra*/
+    opacity: 0.8; /* cuadro de transparencia*/
+    position:fixed; /*Permite que se mantenga estático*/
+    display:none; /*Oculta el contenedor*/
+    left:1130px; /*Separación del borde izquierdo*/
+    bottom:440px; /*Separación inferior del borde*/
+    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
+}
+
 
 .NombreProyecto{						/* Cambia el color del nombre proyecto*/
 
@@ -188,6 +217,7 @@ box-shadow:0 0 5px #555; /*Sombras CSS3*/
 }
 
 body {
+    background="fondo.jpg"
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -228,7 +258,5 @@ padding: 20px;
     display: block;
     padding: 20px 60px;
 }
-body{
-	background="fondo.jpg"
-}
+
 

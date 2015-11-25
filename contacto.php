@@ -71,6 +71,7 @@
 </section>
 
 <?php include ("footer.php"); ?>
+<script type="text/javascript" src="scripts/validarInput.js"></script>
 
 </body>
 </html>
