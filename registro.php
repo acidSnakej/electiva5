@@ -8,6 +8,7 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body >
+    <?php include ("buscador.php") ?>
     <?php require ("recaptcha/recaptchalib.php"); ?>
     <?php include("barraNavegacion.php"); ?>
     <?php require ("DBManager.php"); ?>
@@ -22,26 +23,24 @@
                 <tr>
                     <td><label for="txtnombre">Nombre </label></td>
                     <td>
-                    <input type="text" title="Ingresar su nombre" name="txtnombre" id="validarNombre" class="form-control" required>
-                    <div class="nota-informativa" id="valNombre">Debe ingresar un nombre</div>
-                    </td>
-                </tr>
+                    <input type="text" title="Ingresar su nombre" name="txtnombre" id="txtnombre" class="form-control" required>
+                    </td>						
+                </tr> 
 
                 <tr>
                     <td><label for="txtapellido">Apellidos </label> </td>
                     <td>
-                    <input type="text" title="Ingrese su apellido" name="txtapellido" id="validarApellido" class="form-control" required>
-                    <div class="nota-informativa" id="valApellido">Debe ingresar un Apellido</div>
+                    <input type="text" title="Ingrese su apellido" name="txtapellido" id="txtapellido" class="form-control" required>
+                        
                     </a>
-                    </td>
+                    </td>						
                 </tr>
 
                 <tr>
                     <td><label for="txtemail">Email </label> </td>
                     <td>
-                    <input type="email" title="Ingrese su correo" name="txtemail" id="validarCorreo" class="form-control" required>
-                    <div class="nota-informativa" id="valCorreo">Debe ingresar un correo</div>
-                    </td>
+                    <input type="email" title="Ingrese su correo" name="txtemail" id="txtemail" class="form-control" required>
+                    </td>						
                 </tr>
 
                 <tr>
@@ -83,6 +82,6 @@
 </section>
 
 <?php include ("footer.php"); ?>
-<script type="text/javascript" src="scripts/validarRegistro.js"></script>
+   	
 </body>
 </html>

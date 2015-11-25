@@ -3,6 +3,7 @@
    <!-- Latest compiled and minified JavaScript -->
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script type="text/javascript" src="scripts/descripcion.js"></script>
+   <script type="text/javascript" src="scripts/validarInput.js"></script>
+   <!-- script gratuito de texto a voz -->
+ <!-- <script src='//vws.responsivevoice.com/v/e?key=uaIIFycV'></script> -->
   
-  <!-- script gratuito de texto a voz -->
-  <!-- <script src='//vws.responsivevoice.com/v/e?key=uaIIFycV'></script> -->

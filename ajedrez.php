@@ -6,6 +6,7 @@
             <?php include ("header.php"); ?>
 </head>
 <body >
+    <?php include ("buscador.php") ?>
     <?php include ("barraNavegacion.php"); ?>
     <?php include ("carrusel/carruselAjedrez.php"); ?>
     <?php include ("footer.php"); ?>

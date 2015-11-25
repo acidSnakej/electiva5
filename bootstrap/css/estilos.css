@@ -166,48 +166,6 @@ body{
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 
-#valNombre{
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
-    text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
-    color: #050505; /*color de la letra*/
-    opacity: 0.8; /* cuadro de transparencia*/
-    position:fixed; /*Permite que se mantenga estático*/
-    display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:403px; /*Separación inferior del borde*/
-    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
-}
-
-#valApellido{
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
-    text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
-    color: #050505; /*color de la letra*/
-    opacity: 0.8; /* cuadro de transparencia*/
-    position:fixed; /*Permite que se mantenga estático*/
-    display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:475px; /*Separación inferior del borde*/
-    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
-}
-
-#valCorreo{
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
-    text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
-    color: #050505; /*color de la letra*/
-    opacity: 0.8; /* cuadro de transparencia*/
-    position:fixed; /*Permite que se mantenga estático*/
-    display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:440px; /*Separación inferior del borde*/
-    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
-}
-
 
 .NombreProyecto{						/* Cambia el color del nombre proyecto*/
 

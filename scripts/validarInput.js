@@ -42,17 +42,4 @@ $(document).ready(function(){
 		}
 
 	});// funcion validar texto
-
-
-	$("#txtNombre").focusout(function(){
-		var nombre = $("#textNombre").val();
-		if (nombre == "")
-		{
-			alert("hola mundo");
-			$("#registroNombre").fadeIn(0);
-		}else{
-			$("#registroNombre").fadeOut(100);
-		}
-
-	});// funcion validar nombreRegistro
 });

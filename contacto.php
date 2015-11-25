@@ -7,6 +7,7 @@
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body class="fondo">
+    <?php include ("buscador.php") ?>
     <?php require ("recaptcha/recaptchalib.php"); ?>
     <?php include("barraNavegacion.php"); ?>
     <?php require ("DBManager.php"); ?>
@@ -71,7 +72,6 @@
 </section>
 
 <?php include ("footer.php"); ?>
-<script type="text/javascript" src="scripts/validarInput.js"></script>
 
 </body>
 </html>
