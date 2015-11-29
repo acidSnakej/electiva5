@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>MipaginaWeb</title>
+    <meta charset="UTF-8">
+    <title>MipaginaWeb</title>
             <?php include ("header.php"); ?>
   <link rel="stylesheet" href="bootstrap/css/estilos.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body >
-    <?php include ("buscador.php") ?>
+    <?php include ("buscador.php"); ?>
     <?php require ("recaptcha/recaptchalib.php"); ?>
     <?php include("barraNavegacion.php"); ?>
     <?php require ("DBManager.php"); ?>
-	<center class="TituloRegistro"><h1>Registro de datos</h1></center>
+    <center class="TituloRegistro"><h1>Registro de datos</h1></center>
 
 <section>
 <form action="validarRegistro.php" method="post">
@@ -23,24 +23,29 @@
                 <tr>
                     <td><label for="txtnombre">Nombre </label></td>
                     <td>
-                    <input type="text" title="Ingresar su nombre" name="txtnombre" id="txtnombre" class="form-control" required>
-                    </td>						
-                </tr> 
+                    <input type="text" title="Ingresar su nombre" name="txtnombre" id="validarNombre" class="form-control"
+                    placeholder="Escriba  su nombre"required>
+                    <div class="nota-informativa" id="valNombre">Debe ingresar un nombre</div>
+                    </td>
+                </tr>
 
                 <tr>
                     <td><label for="txtapellido">Apellidos </label> </td>
                     <td>
-                    <input type="text" title="Ingrese su apellido" name="txtapellido" id="txtapellido" class="form-control" required>
-                        
+                    <input type="text" title="Ingrese su apellido" name="txtapellido" id="validarApellido" class="form-control"
+                    placeholder="Escriba  su apellido" required>
+                    <div class="nota-informativa" id="valApellido">Debe ingresar un Apellido</div>
                     </a>
-                    </td>						
+                    </td>
                 </tr>
 
                 <tr>
                     <td><label for="txtemail">Email </label> </td>
                     <td>
-                    <input type="email" title="Ingrese su correo" name="txtemail" id="txtemail" class="form-control" required>
-                    </td>						
+                    <input type="email" title="Ingrese su correo" name="txtemail" id="validarCorreo" class="form-control" 
+                    placeholder="Escriba  su correo"required>
+                    <div class="nota-informativa" id="valCorreo">Debe ingresar un correo</div>
+                    </td>
                 </tr>
 
                 <tr>
@@ -54,7 +59,7 @@
                     </select>
                     </td>
                 </tr>
-	
+    
                 <tr>
                 <?php $query1 = $miConexion->query("deportes","*"); ?>
                 <td><label for="txtjava">Deporte </label> </td>
@@ -64,7 +69,7 @@
                         <option value=" <?php echo $result1->id; ?>"><?php echo $result1->descripcion; ?></option>
                     <?php endwhile; ?>
                     </select>
-                </td>						
+                </td>                       
             </tr>
 
 <br>
@@ -82,6 +87,6 @@
 </section>
 
 <?php include ("footer.php"); ?>
-   	
+<script type="text/javascript" src="scripts/validarRegistro.js"></script>
 </body>
 </html>

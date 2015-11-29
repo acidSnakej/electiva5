@@ -1,15 +1,11 @@
-
-
-
-<center style="margin-left: 1200px;">
-<form method=GET action="http://www.google.com/search">
-<table bgcolor="#818181"><tr><td>
-<a href=" http://www.google.com/">
-<img src="http://www.binbazz.com/wp-content/uploads/2013/10/Google_0.png" border="0" alt="Google" align="absmiddle" width="15%" style="bottom: 35px;" />
-</a>
-<input type="text" name="buscador" value="" style="background: #818181; bottom: 15px;">
-<input type="submit" class="btn" name="btn" id="Enviar" value="Búsqueda Google"  style="background-color:#818181" />
+<div id="buscador">
+<FORM method=GET action="http://www.google.com/search">
+<TABLE bgcolor="Black"><tr><td>
+<A HREF=" http://www.google.com/">
+<IMG SRC="http://www.bloovi.be/frontend/files/blog/images/source/google-onthult-nieuw-logo-en-navigatiebalk.png" border="0" ALT="Google" align="absmiddle" right=2324424444 width=15% ></A>
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" style="color: black;">
+<INPUT TYPE=hidden name=hl value=es>
+<INPUT type=submit  class="btn btn-primary btn-sm" id="busqueda" value="Busqueda Google">
 </td></tr></TABLE>
-</form>
-</center>
-
+</FORM>
+</div>

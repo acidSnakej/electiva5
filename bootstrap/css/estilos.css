@@ -5,6 +5,13 @@
 	height: 100px;
 }
 
+#buscador{
+  left: 2345432556px;
+  padding-left: 798px;
+  
+  
+
+}
 .btn btn-primary{ 
 	margin-bottom: 10px:;
 
@@ -113,56 +120,98 @@ body{
 	font-style: oblique;
 }
 #notaNombre {
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
     text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
+    font: oblique bold 100% cursive; 
     color: #050505; /*color de la letra*/
     opacity: 0.8; /* cuadro de transparencia*/
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:510px; /*Separación inferior del borde*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:240px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 #notaApellido{
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
     text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
+    font: oblique bold 100% cursive; 
     color: #050505; /*color de la letra*/
     opacity: 0.8; /* cuadro de transparencia*/
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:475px; /*Separación inferior del borde*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:209px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 
 }
 #notaCorreo{
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
     text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
+    font: oblique bold 100% cursive; 
     color: #050505; /*color de la letra*/
     opacity: 0.8; /* cuadro de transparencia*/
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:440px; /*Separación inferior del borde*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:180px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 #notaMensaje{
-    padding:5px; /*Espaciado interno*/
-    width:180px; /*Ancho del contenedor*/
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
     text-align:center; /*Alineación del texto*/
-    font: oblique bold 110% cursive; 
+    font: oblique bold 100% cursive; 
     color: #050505; /*color de la letra*/
     opacity: 0.8; /* cuadro de transparencia*/
     position:fixed; /*Permite que se mantenga estático*/
     display:none; /*Oculta el contenedor*/
-    left:1130px; /*Separación del borde izquierdo*/
-    bottom:403px; /*Separación inferior del borde*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:150px; /*Separación inferior del borde*/
+    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
+}
+
+#valNombre{
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
+    text-align:center; /*Alineación del texto*/
+    font: oblique bold 100% cursive; 
+    color: #050505; /*color de la letra*/
+    opacity: 0.8; /* cuadro de transparencia*/
+    position:fixed; /*Permite que se mantenga estático*/
+    display:none; /*Oculta el contenedor*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:240px; /*Separación inferior del borde*/
+    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
+}
+
+#valApellido{
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
+    text-align:center; /*Alineación del texto*/
+    font: oblique bold 100% cursive; 
+    color: #050505; /*color de la letra*/
+    opacity: 0.8; /* cuadro de transparencia*/
+    position:fixed; /*Permite que se mantenga estático*/
+    display:none; /*Oculta el contenedor*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:205px; /*Separación inferior del borde*/
+    box-shadow:0 0 5px #050505; /*Sombras CSS3*/
+}
+
+#valCorreo{
+    padding:4px; /*Espaciado interno*/
+    width:190px; /*Ancho del contenedor*/
+    text-align:center; /*Alineación del texto*/
+    font: oblique bold 100% cursive; 
+    color: #050505; /*color de la letra*/
+    opacity: 0.8; /* cuadro de transparencia*/
+    position:fixed; /*Permite que se mantenga estático*/
+    display:none; /*Oculta el contenedor*/
+    left:850px; /*Separación del borde izquierdo*/
+    bottom:175px; /*Separación inferior del borde*/
     box-shadow:0 0 5px #050505; /*Sombras CSS3*/
 }
 
@@ -216,5 +265,8 @@ padding: 20px;
     display: block;
     padding: 20px 60px;
 }
-
-
+#busqueda{
+background-image: -webkit-gradient(linear,left top,left bottom,from(#6F7375),to(#787C80));
+border-color: #434546;
+background-color: #7F8286;  
+}
